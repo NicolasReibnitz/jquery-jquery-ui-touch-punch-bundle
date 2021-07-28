@@ -1,0 +1,36 @@
+html {
+	font-size: 22px;
+}
+
+body {
+	color: #2c3e50;
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+}
+
+#app {
+	margin: 4rem 0;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	margin-bottom: 0.8rem;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	font-weight: bold;
+}

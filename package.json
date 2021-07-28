@@ -1,0 +1,25 @@
+{
+	"name": "jquery-jquery-ui-touch-punch-bundle",
+	"version": "0.0.1",
+	"main": "./dist/jquery-jquery-ui-touch-punch-bundle.umd.js",
+	"module": "./dist/jquery-jquery-ui-touch-punch-bundle.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/jquery-jquery-ui-touch-punch-bundle.es.js",
+			"require": "./dist/jquery-jquery-ui-touch-punch-bundle.umd.js"
+		}
+	},
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite",
+		"serve": "vite preview"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@das.laboratory/eslint-config-interactive": "^1.1.1",
+		"jquery": "^3.6.0",
+		"vite": "^2.4.4"
+	}
+}
